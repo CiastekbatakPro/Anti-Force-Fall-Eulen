@@ -1,3 +1,4 @@
+CreateThread(function()
 while true do
         if IsPedInAnyVehicle(PlayerPedId(), false) or IsPedFalling(PlayerPedId()) then
             SetPedCanRagdoll(PlayerPedId(), true)
